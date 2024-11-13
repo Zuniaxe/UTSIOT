@@ -1,0 +1,78 @@
+{
+    "suhumax": 36,
+    "suhumin": 23,
+    "suhurata": 28.35,
+    "nilai_suhu_max_humid_max": [
+        {
+            "idx": 1,
+            "suhu": 13,
+            "humid": 19,
+            "kecerahan": 76,
+            "timestamp": "2024-11-13 13:36:24"
+        },
+        {
+            "idx": 2,
+            "suhu": 20,
+            "humid": 19,
+            "kecerahan": 25,
+            "timestamp": "2024-11-13 13:36:30"
+        },
+        {
+            "idx": 2,
+            "suhu": 20,
+            "humid": 19,
+            "kecerahan": 25,
+            "timestamp": "2024-11-13 13:49:40"
+        },
+        {
+            "idx": 3,
+            "suhu": 20,
+            "humid": 19,
+            "kecerahan": 25,
+            "timestamp": "2024-11-13 13:49:45"
+        },
+        {
+            "idx": 554,
+            "suhu": 20,
+            "humid": 19,
+            "kecerahan": 25,
+            "timestamp": "2024-11-13 14:13:51"
+        },
+        {
+            "idx": 1,
+            "suhu": 40,
+            "humid": 1,
+            "kecerahan": 77,
+            "timestamp": "2024-11-13 14:14:02"
+        },
+        {
+            "idx": 1,
+            "suhu": 40,
+            "humid": 20,
+            "kecerahan": 77,
+            "timestamp": "2024-11-13 14:14:07"
+        },
+        {
+            "idx": 1,
+            "suhu": 24,
+            "humid": 69,
+            "kecerahan": 77,
+            "timestamp": "2024-11-13 15:00:58"
+        },
+        {
+            "idx": 1,
+            "suhu": 24,
+            "humid": 69,
+            "kecerahan": 38,
+            "timestamp": "2024-11-13 15:03:59"
+        }
+    ],
+    "month_year_max": [
+        {
+            "month_year": "9-2010"
+        },
+        {
+            "month_year": "5-2011"
+        }
+    ]
+}

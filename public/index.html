@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chart.js Data Display with Table and Input</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+    <h1>Data Suhu dan Kelembapan</h1>
+    <div id="input-form">
+        <label for="suhu-slider">Suhu: <span id="suhu-value">36</span></label>
+        <input type="range" id="suhu-slider" min="0" max="50" value="36" oninput="updateSuhuValue(this.value)">
+        <br>
+
+        <label for="humid-slider">Kelembapan: <span id="humid-value">36</span></label>
+        <input type="range" id="humid-slider" min="0" max="100" value="36" oninput="updateHumidValue(this.value)">
+        <br>
+
+        <label for="kecerahan-slider">Kecerahan: <span id="kecerahan-value">25</span></label>
+        <input type="range" id="kecerahan-slider" min="0" max="100" value="25" oninput="updateKecerahanValue(this.value)">
+        <br>
+
+        <button id="add-data-btn">Tambah Data</button>
+    </div>
+    <div class="container">
+            <div class="chart-table-container">
+            <canvas id="myChart"></canvas>
+            <div class="table-container">
+                <table id="data-table">
+                    <thead>
+                        <tr>
+                            <th>Idx</th>
+                            <th>Suhu</th>
+                            <th>Humid</th>
+                            <th>Kecerahan</th>
+                            <th>Timestamp</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
